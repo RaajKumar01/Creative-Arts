@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color:rgba(181, 185, 181, 0.699);
+}
+
+.navbar {
+    background-color: rgba(36, 56, 68, 0.808)
+}
+
+.nav-text li {
+    margin-left : 20px;
+    margin-right: 20px ;
+}
+.nav-text a {
+    color:rgb(33, 34, 34) !important;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: transform,letter-spacing .2s;
+}
+.nav-text a:hover {
+    color: white !important;
+    letter-spacing: 3px;
+    transform: scaleY(1.2)
+    
+}
+
+.home-box {
+    background-color: rgba(241, 234, 234, 0.932);
+    margin-top: 50px;
+    max-height: 650px;
+    max-width: 80%;
+    border-radius: 20px;
+    box-shadow: 8px 10px  rgb(173, 171, 171);
+}
+
+footer {
+    color: rgba(0, 0, 0, 0.801) ;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.channel-title {
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    padding-top: 10px;
+    color: rgba(19, 236, 189, 0.952);
+    text-shadow: 3px 4px rgb(63, 62, 62);
+}
+.home-box hr {
+    height: 2px;
+    color: rgb(0, 0, 0);
+}
+
+.youtube-home {
+    margin-top: 50px;
+}
+.youtube-home h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2rem;
+    font-weight:600;
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
+.youtube-home-video {
+    margin:auto;
+    display:block;
+    margin-top: 30px;
+    width: 560px;
+    height: 315px;
+    border-radius: 15px;
+}
+
+.youtube-home hr {
+    width: 20%;
+    margin-left: 40%;
+    color: green;
+
+}
+.subscribe {
+   margin-top: 40px;
+   text-align: center;
+}
+.subscribe a {
+    border-radius: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: red;
+}
+.subscribe a:hover {
+     background-color: rgb(238, 24, 24);
+}
+.subscribe svg {
+    padding-bottom: 1px;
+}
+@media screen and (max-width: 750px) {
+    .youtube-home iframe {
+        max-width: 100% !important;
+        width: auto !important;
+        height: auto !important;
+    }
+}
